@@ -31,15 +31,15 @@ Este script configura um ambiente com diretórios dedicados e usuários com perm
 
 1.  **Baixe o script:**
     ```bash
-    wget <URL_DO_SCRIPT>/provisionamento_servidor.sh
+    wget https://github.com/jeanmaronez/iac-provisioning-a-web-server-linux/archive/refs/heads/main.zip
     ```
 2.  **Dê permissão de execução ao script:**
     ```bash
-    chmod +x provisionamento_servidor.sh
+    chmod +x create_users_groups_directories.sh
     ```
 3.  **Execute o script como root:**
     ```bash
-    sudo ./provisionamento_servidor.sh
+    sudo ./create_users_groups_directories.sh
     ```
 
 ---
@@ -58,15 +58,15 @@ Este script cria usuários convidados que são forçados a trocar suas senhas no
 
 1.  **Baixe o script:**
     ```bash
-    wget <URL_DO_SCRIPT>/provisionamento_convidados.sh
+    wget https://github.com/jeanmaronez/iac-provisioning-a-web-server-linux/archive/refs/heads/main.zip
     ```
 2.  **Dê permissão de execução ao script:**
     ```bash
-    chmod +x provisionamento_convidados.sh
+    chmod +x create_guest_users.sh
     ```
 3.  **Execute o script como root:**
     ```bash
-    sudo ./provisionamento_convidados.sh
+    sudo ./create_guest_users.sh
     ```
 
 ---
